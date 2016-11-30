@@ -8,6 +8,7 @@ Technische deelvragen:
 - Hoe kunnen we ervoor zorgen dat patiënten hun voortgang kunnen bijhouden?
 - Is het haalbaar om de hele app binnen de daarvoor beschikbare tijd te prototypen in Framer? 
 - Hoe kunnen we ons ontwerp in Sketch structureren, zodat we het overzicht bewaren en het goed overdraagbaar is en interactief gemaakt kan worden in Framer?
+- Hoe kunnen we beginnende gebruikers helpen de app snel te leren begrijpen, zodat ze meteen weten wat er mogelijk is en ze direct een goede introductie krijgen?
 
 Technische leerdoelen:
 - Goed en vloeiend werkend prototype maken in Framer, voor zover dat haalbaar is binnen de beschikbare tijd.
