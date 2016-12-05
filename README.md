@@ -29,6 +29,8 @@ Resultaten:
 Conclusie:
 
 Bronnen:
+- https://framerjs.com/getstarted/import/
+- https://medium.com/@MentallyFriendly/getting-started-prototyping-with-sketch-framer-studio-60636bc42690#.uykxqxtcu
 
 
 
