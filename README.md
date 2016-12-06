@@ -26,11 +26,33 @@ Om mijn technische deelvraag te kunnen beantwoorden, ga ik desk research doen. I
 
 Resultaten: 
 
+Tips voor structureren in Sketch:
+•	Gebruik geen spaties en punten in de namen van je artboards en lagen, want dat kan problemen opleveren met de syntax van de Framer Coffeescript. Gebruik daarom camelCase of names_with_underscores.
+•	Gebruik specifieke namen om verwarring te voorkomen. 
+•	Als je een Sketch bestand in Framer importeert, is het alleen mogelijk om groepen aan te spreken. Alle lagen die je wilt animeren of interactief wilt maken, moet je daarom in een aparte groep in Sketch plaatsen.
+•	In Framer kan je geen tekst van kleur veranderen of lagen vervormen, dus dat moet je in gedachte houden bij het maken van je schermen in Sketch.
+
+Tips voor overzicht in Framer:
+•	Gebruik variabelen als je de waarde meerdere keren in de code gebruikt, zodat je een aanpassing maar 1 keer hoeft in te typen.
+•	Gebruik comments in je code om het voor jezelf en voor anderen die de code willen lezen of aanpassen begrijpelijk is.
+•	Ga op en neer van je Sketch file naar je Framer prototype en bouw zo stap voor stap verder aan je prototype. Zo zie je meteen resultaat en is het nog wat overzichtelijker in Framer, omdat er nog minder Sketch groepen zijn.
+•	Sketch group = Framer layer & Sketch subgroups = Framer subLayer
+•	Schrijf eerst alles wat het prototype moet doen in normale tekst uit en geef hierbij aan of je te maken hebt met een user interactie of met een interface actie of animatie. Voorbeeld: Tap icon (user action) to open app to main view (zoom animation), vards load in (loading animation) enz. De user actions worden de action events en de interface acties worden de animaties. 
+
+Framer tips:
+•	Children groepen in een groep kan je direct aanspreken door de sketchnaam.groep aan te spreken.
+•	Alle lagen selecteren door: for name, layer of sketchnaam
+•	Let op: Lagen moeten in Sketch gepositioneerd zijn op 0,0, zodat ze in Framer in het canvas verschijnen. Daarna 425,0 en 850,0 of 400,0 en 800,0  Relatief aan de eerste.
+•	De app Frames kun je gebruiken om je prototype op een device te gebruiken, ook zonder internet connectie. 
+
 Conclusie:
 
 Bronnen:
-- https://framerjs.com/getstarted/import/
-- https://medium.com/@MentallyFriendly/getting-started-prototyping-with-sketch-framer-studio-60636bc42690#.uykxqxtcu
+- C. Deets. Framer & Sketch: An Intentional Workflow. https://medium.com/facebook-design/framer-sketch-an-intentional-workflow-f91ee2ee1cc1#.obgt1b8if
+- E. Corcoran. Getting started Prototyping with Sketch & Framer Studio. https://medium.com/@MentallyFriendly/getting-started-prototyping-with-sketch-framer-studio-60636bc42690#.uykxqxtcu
+- Framer. Get Started. Sketch Import. https://framerjs.com/getstarted/import/
+- N. Baskanderi. Sketch tips for Framer.js. How to smoothly import Sketch files into Framer. https://medium.com/sketch-app-sources/sketch-tips-for-framer-js-73b579332993#.orgalaav3
+
 
 
 
