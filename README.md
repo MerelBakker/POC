@@ -48,6 +48,7 @@ Framer tips:
 - Gebruik print "..." om te testen of een event werkt.
 
 Conclusie:
+Het is erg belangrijk om alles wat je interactief wilt maken in Sketch in een groep te plaatsen met een duidelijke naam, zonder punten en spaties erin. Door vanaf het begin al met Framer te werken, is het makkelijker om je prototype pop te bouwen en het overzicht te bewaren. Daarnaast is het erg belangrijk om comments te gebruiken in je code, zodat jij en de andere mensen die de code bekijken, begrijpen wat er staat. Er zijn veel voorbeelden te vinden over hoe je bepaalde interacties of animaties kan gebruiken in een prototype en als je deze voorbeelden en tutorial video's bekijkt, krijg je een steeds beter beeld van wat er allemaal mogelijk is in Framer en hoe je dat kan aanpakken. 
 
 Bronnen:
 - C. Deets. Framer & Sketch: An Intentional Workflow. https://medium.com/facebook-design/framer-sketch-an-intentional-workflow-f91ee2ee1cc1#.obgt1b8if
