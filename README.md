@@ -1,6 +1,7 @@
 # Proof of Concept (POC)
 
 Hoofdvraag: 
+
 Hoe kunnen we de app MisofoMe beter integreren in het dagelijks leven van mensen met misofonie?
 
 Technische deelvragen:
@@ -14,6 +15,7 @@ Technische leerdoelen:
 - Ontwerpen in Sketch goed leren structureren, zodat het goed te gebruiken is in Framer. 
 
 Inleiding:
+
 De technische deelvraag die ik in mijn Proof of Concept ga onderzoeken is:
 "Hoe kunnen we ons ontwerp in Sketch structureren, zodat we het overzicht bewaren en het goed overdraagbaar is en interactief gemaakt kan worden in Framer?"
 
@@ -49,6 +51,7 @@ Framer tips:
 - Gebruik print "..." om te testen of een event werkt.
 
 Conclusie:
+
 Het is erg belangrijk om alles wat je interactief wilt maken in Sketch in een groep te plaatsen met een duidelijke naam, zonder punten en spaties erin. Door vanaf het begin al met Framer te werken, is het makkelijker om je prototype pop te bouwen en het overzicht te bewaren. Daarnaast is het erg belangrijk om comments te gebruiken in je code, zodat jij en de andere mensen die de code bekijken, begrijpen wat er staat. Er zijn veel voorbeelden te vinden over hoe je bepaalde interacties of animaties kan gebruiken in een prototype en als je deze voorbeelden en tutorial video's bekijkt, krijg je een steeds beter beeld van wat er allemaal mogelijk is in Framer en hoe je dat kan aanpakken. 
 
 Bronnen:
