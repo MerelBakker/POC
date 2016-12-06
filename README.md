@@ -1,4 +1,4 @@
-# POC
+# Proof of Concept (POC)
 
 Hoofdvraag: 
 Hoe kunnen we de app MisofoMe beter integreren in het dagelijks leven van mensen met misofonie?
