@@ -60,3 +60,4 @@ Bronnen:
 - R. Conde. Prototyping with Framer, part 2. https://www.sketchcasts.net/episodes/prototyping-with-framer-part-2
 - R. Conde. Prototyping with Framer, part 3. https://www.sketchcasts.net/episodes/prototyping-with-framer-part-3
 
+
