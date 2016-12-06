@@ -22,6 +22,7 @@ Ik denk dat deze deelvraag cruciaal is om het haalbaar te maken om onze app binn
 Tijdens het onderzoeken van deze deelvraag wil ik meer te weten komen over hoe je je schermontwerpen en alle elementen op het scherm op een goede manier kan structureren. Ik ga onderzoeken hoe we het overzicht kunnen bewaren en hoop handige tips en adviezen te vinden over het goed en gestructureerd ontwikkelen van een Framer prototype. Hiermee wil ik de kans vergroten dat we in de beschikbare tijd ons prototype in Framer kunnen maken en daarmee de haalbaarheid (zie deelvraag 1) vergroten.
 
 Onderzoeksplan:
+
 Om mijn technische deelvraag te kunnen beantwoorden, ga ik desk research doen. Ik ga video's bekijken en artikelen lezen over het structureren van Sketch bestanden en de overdracht naar een interactief prototype in Framer. Daarnaast bekijk ik op de website https://framerjs.com de informatie in "Get Started" en in de gallerij kan ik voorbeelden bekijken. 
 
 Resultaten: 
