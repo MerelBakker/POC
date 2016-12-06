@@ -43,7 +43,9 @@ Framer tips:
 - Children groepen in een groep kan je direct aanspreken door de sketchnaam.groep aan te spreken.
 - Alle lagen selecteren door: for name, layer of sketchnaam
 - Let op: Lagen moeten in Sketch gepositioneerd zijn op 0,0, zodat ze in Framer in het canvas verschijnen. Daarna 425,0 en 850,0 of 400,0 en 800,0 Relatief aan de eerste.
-- De app Frames kun je gebruiken om je prototype op een device te gebruiken, ook zonder internet connectie. 
+- De app Frames of Frameless kun je gebruiken om je prototype op een device te gebruiken, ook zonder internet connectie. 
+- deviceWidth = Framer.Device.screen.width en dit kan ook voor height.
+- Gebruik print "..." om te testen of een event werkt.
 
 Conclusie:
 
@@ -51,9 +53,9 @@ Bronnen:
 - C. Deets. Framer & Sketch: An Intentional Workflow. https://medium.com/facebook-design/framer-sketch-an-intentional-workflow-f91ee2ee1cc1#.obgt1b8if
 - E. Corcoran. Getting started Prototyping with Sketch & Framer Studio. https://medium.com/@MentallyFriendly/getting-started-prototyping-with-sketch-framer-studio-60636bc42690#.uykxqxtcu
 - Framer. Get Started. Sketch Import. https://framerjs.com/getstarted/import/
+- Framer js Tutorials - Framer Studio Basic Tutorial - Framer js - UX Hacker. https://www.youtube.com/watch?v=oM9MScfYxYw
 - N. Baskanderi. Sketch tips for Framer.js. How to smoothly import Sketch files into Framer. https://medium.com/sketch-app-sources/sketch-tips-for-framer-js-73b579332993#.orgalaav3
-
-
-
-
+- R. Conde. Prototyping with Framer, part 1. https://www.sketchcasts.net/episodes/prototyping-with-framer-part-1
+- R. Conde. Prototyping with Framer, part 2. https://www.sketchcasts.net/episodes/prototyping-with-framer-part-2
+- R. Conde. Prototyping with Framer, part 3. https://www.sketchcasts.net/episodes/prototyping-with-framer-part-3
 
