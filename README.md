@@ -33,17 +33,17 @@ Tips voor structureren in Sketch:
 - In Framer kan je geen tekst van kleur veranderen of lagen vervormen, dus dat moet je in gedachte houden bij het maken van je schermen in Sketch.
 
 Tips voor overzicht in Framer:
-•	Gebruik variabelen als je de waarde meerdere keren in de code gebruikt, zodat je een aanpassing maar 1 keer hoeft in te typen.
-•	Gebruik comments in je code om het voor jezelf en voor anderen die de code willen lezen of aanpassen begrijpelijk is.
-•	Ga op en neer van je Sketch file naar je Framer prototype en bouw zo stap voor stap verder aan je prototype. Zo zie je meteen resultaat en is het nog wat overzichtelijker in Framer, omdat er nog minder Sketch groepen zijn.
-•	Sketch group = Framer layer & Sketch subgroups = Framer subLayer
-•	Schrijf eerst alles wat het prototype moet doen in normale tekst uit en geef hierbij aan of je te maken hebt met een user interactie of met een interface actie of animatie. Voorbeeld: Tap icon (user action) to open app to main view (zoom animation), vards load in (loading animation) enz. De user actions worden de action events en de interface acties worden de animaties. 
+- Gebruik variabelen als je de waarde meerdere keren in de code gebruikt, zodat je een aanpassing maar 1 keer hoeft in te typen.
+- Gebruik comments in je code om het voor jezelf en voor anderen die de code willen lezen of aanpassen begrijpelijk is.
+- Ga op en neer van je Sketch file naar je Framer prototype en bouw zo stap voor stap verder aan je prototype. Zo zie je meteen resultaat en is het nog wat overzichtelijker in Framer, omdat er nog minder Sketch groepen zijn.
+- Sketch group = Framer layer & Sketch subgroups = Framer subLayer
+- Schrijf eerst alles wat het prototype moet doen in normale tekst uit en geef hierbij aan of je te maken hebt met een user interactie of met een interface actie of animatie. Voorbeeld: Tap icon (user action) to open app to main view (zoom animation), vards load in (loading animation) enz. De user actions worden de action events en de interface acties worden de animaties. 
 
 Framer tips:
-•	Children groepen in een groep kan je direct aanspreken door de sketchnaam.groep aan te spreken.
-•	Alle lagen selecteren door: for name, layer of sketchnaam
-•	Let op: Lagen moeten in Sketch gepositioneerd zijn op 0,0, zodat ze in Framer in het canvas verschijnen. Daarna 425,0 en 850,0 of 400,0 en 800,0  Relatief aan de eerste.
-•	De app Frames kun je gebruiken om je prototype op een device te gebruiken, ook zonder internet connectie. 
+- Children groepen in een groep kan je direct aanspreken door de sketchnaam.groep aan te spreken.
+- Alle lagen selecteren door: for name, layer of sketchnaam
+- Let op: Lagen moeten in Sketch gepositioneerd zijn op 0,0, zodat ze in Framer in het canvas verschijnen. Daarna 425,0 en 850,0 of 400,0 en 800,0 Relatief aan de eerste.
+- De app Frames kun je gebruiken om je prototype op een device te gebruiken, ook zonder internet connectie. 
 
 Conclusie:
 
