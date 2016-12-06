@@ -27,10 +27,10 @@ Om mijn technische deelvraag te kunnen beantwoorden, ga ik desk research doen. I
 Resultaten: 
 
 Tips voor structureren in Sketch:
-•	Gebruik geen spaties en punten in de namen van je artboards en lagen, want dat kan problemen opleveren met de syntax van de Framer Coffeescript. Gebruik daarom camelCase of names_with_underscores.
-•	Gebruik specifieke namen om verwarring te voorkomen. 
-•	Als je een Sketch bestand in Framer importeert, is het alleen mogelijk om groepen aan te spreken. Alle lagen die je wilt animeren of interactief wilt maken, moet je daarom in een aparte groep in Sketch plaatsen.
-•	In Framer kan je geen tekst van kleur veranderen of lagen vervormen, dus dat moet je in gedachte houden bij het maken van je schermen in Sketch.
+- Gebruik geen spaties en punten in de namen van je artboards en lagen, want dat kan problemen opleveren met de syntax van de Framer Coffeescript. Gebruik daarom camelCase of names_with_underscores.
+- Gebruik specifieke namen om verwarring te voorkomen. 
+- Als je een Sketch bestand in Framer importeert, is het alleen mogelijk om groepen aan te spreken. Alle lagen die je wilt animeren of interactief wilt maken, moet je daarom in een aparte groep in Sketch plaatsen.
+- In Framer kan je geen tekst van kleur veranderen of lagen vervormen, dus dat moet je in gedachte houden bij het maken van je schermen in Sketch.
 
 Tips voor overzicht in Framer:
 •	Gebruik variabelen als je de waarde meerdere keren in de code gebruikt, zodat je een aanpassing maar 1 keer hoeft in te typen.
