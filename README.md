@@ -64,4 +64,9 @@ Het is erg belangrijk om alles wat je interactief wilt maken in Sketch in een gr
 - R. Conde. Prototyping with Framer, part 2. https://www.sketchcasts.net/episodes/prototyping-with-framer-part-2
 - R. Conde. Prototyping with Framer, part 3. https://www.sketchcasts.net/episodes/prototyping-with-framer-part-3
 
-
+Tentamenvragen
+- Waarom is het belangrijk om comments in je code te gebruiken? Geef twee redenen.
+Antwoord: 1. Door comments toe te voegen, behoud je zelf het overzicht in de code en kan je snel dingen terugvinden. Als je op een later moment verder gaat met je code begrijp je al snel hoe het ook al weer is opgebouwd.
+2. Door comments toe te voegen, kun je je werk beter overdragen aan iemand anders en kun je beter samenwerken. Door comments begrijpen anderen je code eerder.
+- Waarom kun je beter geen punt (.) gebruiken in een naam voor een map in Sketch als je deze later in Framer wilt gebruiken? Noem twee geschikte manieren van naamgeving.
+Antwoord: Als je een . gebruikt, kan dat problemen opleveren met de syntax in Framer. Wat wel goede manieren zijn om je mappen een naam te geven: camelCase en names_with_underscores
