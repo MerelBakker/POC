@@ -71,11 +71,18 @@ Bron: Framer Workshop
 - Waarom kun je beter geen punt (.) gebruiken in een naam voor een map in Sketch als je deze later in Framer wilt gebruiken?  Noem twee geschikte manieren van naamgeving.
 Antwoord: Als je een . gebruikt, kan dat problemen opleveren met de syntax in Framer. Wat wel goede manieren zijn om je mappen een naam te geven: camelCase en names_with_underscores. Bron: https://medium.com/@MentallyFriendly/getting-started-prototyping-with-sketch-framer-studio-60636bc42690#.besuqeu5p https://framerjs.com/getstarted/import/
 
+# Reflectie 
+
 # Wat heb ik geleerd?
 - Ik heb geleerd om Sketch in combinatie met Framer te gebruiken.
 - Het is het makkelijkst om zelf je ontwerp in Framer te maken en dit vervolgens om te zetten naar een Framer prototype, omdat je goed moet weten hoe de verschillende lagen heten. Als iemand anders het Sketch bestand maakt, is het veel moeilijker interactief te maken, omdat je eerst voor alle lagen die je interactief wilt maken, moet kijken hoe deze lagen genoemd zijn. Ook al probeer je het nog zo goed te structureren in groepen in Framer, het wordt al snel erg complex. Ik ontdekte dat je met de stateSwitch en events allerlei verschillende interacties kunt maken.
 - Ik heb geleerd hoe je kan states aanmaakt en hoe je kan switchen tussen verschillende states om elementen in of uit beeld te zetten, bijvoorbeeld bij een onClick of onSwipe.
 - Ik heb geleerd hoe je onderdelen van een pagina scrollbaar kan maken.
 - Ook heb ik geleerd hoe je animaties aan kan passen, waardoor er bij het wisselen tussen states een animatie (animate in plaats van stateSwitch) plaatsvindt.
+
+# Technische leerdoelen:
+- Goed en vloeiend werkend prototype maken in Framer, voor zover dat haalbaar is binnen de beschikbare tijd.
+- Basis van Framer goed begrijpen en het leerproces gestructureerd aanpakken. 
+- Ontwerpen in Sketch goed leren structureren, zodat het goed te gebruiken is in Framer. 
 
 
