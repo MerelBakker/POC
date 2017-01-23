@@ -52,7 +52,7 @@ Framer tips:
 
 # Conclusie:
 
-Het is erg belangrijk om alles wat je interactief wilt maken in Sketch in een groep te plaatsen met een duidelijke naam, zonder punten en spaties erin. Door vanaf het begin al met Framer te werken, is het makkelijker om je prototype pop te bouwen en het overzicht te bewaren. Daarnaast is het erg belangrijk om comments te gebruiken in je code, zodat jij en de andere mensen die de code bekijken, begrijpen wat er staat. Er zijn veel voorbeelden te vinden over hoe je bepaalde interacties of animaties kan gebruiken in een prototype en als je deze voorbeelden en tutorial video's bekijkt, krijg je een steeds beter beeld van wat er allemaal mogelijk is in Framer en hoe je dat kan aanpakken. 
+Het is erg belangrijk om alles wat je interactief wilt maken in Sketch in een groep te plaatsen met een duidelijke naam, zonder punten en spaties erin. Door vanaf het begin al met Framer te werken, is het makkelijker om je prototype op te bouwen en het overzicht te bewaren. Daarnaast is het erg belangrijk om comments te gebruiken in je code, zodat jij en de andere mensen die de code bekijken, begrijpen wat er staat. Er zijn veel voorbeelden te vinden over hoe je bepaalde interacties of animaties kan gebruiken in een prototype en als je deze voorbeelden en tutorial video's bekijkt, krijg je een steeds beter beeld van wat er allemaal mogelijk is in Framer en hoe je dat kan aanpakken. 
 
 # Bronnen:
 - C. Deets. Framer & Sketch: An Intentional Workflow. https://medium.com/facebook-design/framer-sketch-an-intentional-workflow-f91ee2ee1cc1#.obgt1b8if
@@ -64,9 +64,18 @@ Het is erg belangrijk om alles wat je interactief wilt maken in Sketch in een gr
 - R. Conde. Prototyping with Framer, part 2. https://www.sketchcasts.net/episodes/prototyping-with-framer-part-2
 - R. Conde. Prototyping with Framer, part 3. https://www.sketchcasts.net/episodes/prototyping-with-framer-part-3
 
-Tentamenvragen
+# Tentamenvragen:
 - Waarom is het belangrijk om comments in je code te gebruiken? Geef twee redenen.
 Antwoord: 1. Door comments toe te voegen, behoud je zelf het overzicht in de code en kan je snel dingen terugvinden. Als je op een later moment verder gaat met je code begrijp je al snel hoe het ook al weer is opgebouwd. 2. Door comments toe te voegen, kun je je werk beter overdragen aan iemand anders en kun je beter samenwerken. Door comments begrijpen anderen je code eerder.
 Bron: Framer Workshop
 - Waarom kun je beter geen punt (.) gebruiken in een naam voor een map in Sketch als je deze later in Framer wilt gebruiken?  Noem twee geschikte manieren van naamgeving.
 Antwoord: Als je een . gebruikt, kan dat problemen opleveren met de syntax in Framer. Wat wel goede manieren zijn om je mappen een naam te geven: camelCase en names_with_underscores. Bron: https://medium.com/@MentallyFriendly/getting-started-prototyping-with-sketch-framer-studio-60636bc42690#.besuqeu5p https://framerjs.com/getstarted/import/
+
+# Wat heb ik geleerd?
+- Ik heb geleerd om Sketch in combinatie met Framer te gebruiken.
+- Het is het makkelijkst om zelf je ontwerp in Framer te maken en dit vervolgens om te zetten naar een Framer prototype, omdat je goed moet weten hoe de verschillende lagen heten. Als iemand anders het Sketch bestand maakt, is het veel moeilijker interactief te maken, omdat je eerst voor alle lagen die je interactief wilt maken, moet kijken hoe deze lagen genoemd zijn. Ook al probeer je het nog zo goed te structureren in groepen in Framer, het wordt al snel erg complex. Ik ontdekte dat je met de stateSwitch en events allerlei verschillende interacties kunt maken.
+- Ik heb geleerd hoe je kan states aanmaakt en hoe je kan switchen tussen verschillende states om elementen in of uit beeld te zetten, bijvoorbeeld bij een onClick of onSwipe.
+- Ik heb geleerd hoe je onderdelen van een pagina scrollbaar kan maken.
+- Ook heb ik geleerd hoe je animaties aan kan passen, waardoor er bij het wisselen tussen states een animatie (animate in plaats van stateSwitch) plaatsvindt.
+
+
