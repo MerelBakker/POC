@@ -80,9 +80,11 @@ Antwoord: Als je een . gebruikt, kan dat problemen opleveren met de syntax in Fr
 - Ik heb geleerd hoe je onderdelen van een pagina scrollbaar kan maken.
 - Ook heb ik geleerd hoe je animaties aan kan passen, waardoor er bij het wisselen tussen states een animatie (animate in plaats van stateSwitch) plaatsvindt.
 
-# Technische leerdoelen:
+# Leerdoelen behaald?
 - Goed en vloeiend werkend prototype maken in Framer, voor zover dat haalbaar is binnen de beschikbare tijd.
+Ik ben blij met het resultaat van het Framer prototype. Het is nog geen volledig werkend prototype met een vloeiende flow door de bugs hier en daar, maar we hebben wel goed de beoogde werking kunnen tonen aan de klant door de schermvideo's met interacties die ik heb gemaakt. Het was voor mij niet haalbaar om alle bugs eruit te halen en om alle minder relevante interacties werkend te maken, maar in het maken van het prototype is veel tijd gaan zitten. Ik merkte wel dat hert gedurende het project vorderde en het prototoype steeds meer ging werken, het steeds makkelijker werd om te bedenken hoe ik een interactie werkend zou kunnen maken. Echter blijft het best tijdrovend, omdat je voor veel states een nieuw scherm of element moet maken in Sketch. 
 - Basis van Framer goed begrijpen en het leerproces gestructureerd aanpakken. 
+In het begin heb ik wel wat video tutorials en voorbeelden bekeken. Ik merkte daarbij dat het vaak makkelijk lijkt, maar dat je het dan toch nog helemaal moet vertalen naar je eigen prototype en dat is ingewikkelder dan het lijkt. Daarom ben ik vooral veel zelf gaan proberen en merkte dat je er dan toch vaak wel uitkomt, al heeft het vaak wel even tijd nodig. 
 - Ontwerpen in Sketch goed leren structureren, zodat het goed te gebruiken is in Framer. 
 
 
