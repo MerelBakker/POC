@@ -95,6 +95,7 @@ Ik heb de dingen die nog niet gelukt zijn, aangegeven in de vorm van issues in G
 https://github.com/MerelBakker/Share-Care-Misofonie/issues
 
 Link naar eindrapport en Framer Prototype
+
 https://drive.google.com/drive/folders/0B8dhNqa8u-pMS1YzTTBCZkoyNjA?usp=sharing
 https://framer.cloud/pjrVq/
 
