@@ -1,0 +1,1059 @@
+# Import file "kaartenversie23" (sizes and positions are scaled 1:2)
+sketch = Framer.Importer.load("imported/kaartenversie23@2x")
+
+# Import file "kaartenversie25" (sizes and positions are scaled 1:2)
+sketch = Framer.Importer.load("imported/kaartenversie25@2x")
+
+
+
+
+
+
+
+# ----------------------------------- #
+# Menu
+
+# Alle oefeningen / Favorieten
+
+#Tab 1
+sketch.tab1.onClick (event, layer) ->
+	sketch.scherm1.stateSwitch "default"
+	sketch.favorietenscherm.stateSwitch "uit"
+	
+# State aanmaken Favorieten
+sketch.favorietenscherm.states.aan =
+	x: 0
+	y: 0
+
+# State aanmaken 
+sketch.scherm1.states.uit =
+	x: 1000
+	y: 1000
+
+# Favorieten scherm verschijnt bij klikken op Favorieten
+sketch.tab2.onClick (event, layer) ->
+	sketch.favorietenscherm.stateSwitch "aan"	
+
+#Tab 2
+
+# State aanmaken Test
+sketch.testscherm.states.fa =
+	x: 0
+	y: 0
+
+sketch.scherm1.states.default =
+	x: 0
+	y: 0
+
+# Test scherm verschijnt bij klikken op Testen
+sketch.favorieten.onClick (event, layer) ->
+	sketch.testscherm.stateSwitch "fa"
+	
+# State aanmaken Meldingen
+sketch.meldingenscherm.states.default =
+	x: 0
+	y: 0
+
+sketch.melding1.states.uit =
+	x: 1000
+	y: 1000
+
+sketch.melding11.states.uit =
+	x: 1000
+	y: 1000
+
+sketch.melding12.states.uit =
+	x: 1000
+	y: 1000
+
+sketch.melding13.states.uit =
+	x: 1000
+	y: 1000
+
+sketch.melding14.states.uit =
+	x: 1000
+	y: 1000
+
+sketch.kaartm1b.states.aan =
+	y: 162
+	x: 30
+
+sketch.favorietenscherm.states.uit =
+	x: 1000
+	y: 1000
+	
+	
+# Meldingen scherm verschijnt bij klikken op Meldingen
+sketch.meldingen.onClick (event, layer) ->
+	sketch.meldingenscherm.stateSwitch "default"
+	sketch.melding1.stateSwitch "uit"
+	sketch.melding11.stateSwitch "uit"
+	sketch.melding12.stateSwitch "uit"
+	sketch.melding13.stateSwitch "uit"
+	
+sketch.kaartm1.onClick (event, layer) ->
+	sketch.kaartm1b.stateSwitch "aan"
+
+
+# State aanmaken Instellingen
+sketch.instellingenscherm.states.default =
+	x: 0
+	y: 0
+
+# Instellingen scherm verschijnt bij klikken op Instellingen
+sketch.instellingen.onClick (event, layer) ->
+	sketch.instellingenscherm.stateSwitch "default"
+
+
+# State aanmaken 
+sketch.favorietenscherm.states.g =
+	x: 750
+
+sketch.oefeningen2.onClick (event, layer) ->
+	sketch.favorietenscherm.stateSwitch "g"
+
+
+# State aanmaken 
+sketch.meldingenscherm.states.g =
+	x: 750
+
+sketch.favorieten.onClick (event, layer) ->
+	sketch.meldingenscherm.stateSwitch "g"
+
+
+# State aanmaken 
+sketch.instellingenscherm.states.g =
+	x: 750
+
+sketch.favorieten.onClick (event, layer) ->
+	sketch.instellingenscherm.stateSwitch "g"
+
+
+# State aanmaken 
+sketch.instellingenscherm.states.g =
+	x: 750
+
+sketch.meldingen.onClick (event, layer) ->
+	sketch.instellingenscherm.stateSwitch "g"
+
+
+# State aanmaken 
+sketch.instellingenscherm.states.g =
+	x: 750
+
+sketch.oefeningen.onClick (event, layer) ->
+	sketch.instellingenscherm.stateSwitch "g"
+	
+
+# State aanmaken 
+sketch.meldingenscherm.states.g =
+	x: 750
+
+sketch.oefeningen.onClick (event, layer) ->
+	sketch.meldingenscherm.stateSwitch "g"
+
+# Vanaf Testen pagina naar andere pagina's
+
+sketch.testscherm.states.uit =
+	x: 1000
+	y: 1000
+	
+sketch.oefeningen5.onClick (event, layer) ->
+	sketch.scherm1.stateSwitch "default"
+	sketch.testscherm.stateSwitch "uit"
+	
+sketch.meldingen5.onClick (event, layer) ->
+	sketch.meldingenscherm.stateSwitch "default"
+	sketch.testscherm.stateSwitch "uit"
+	sketch.melding1.stateSwitch "uit"
+	sketch.melding11.stateSwitch "uit"
+	sketch.melding12.stateSwitch "uit"
+	sketch.melding13.stateSwitch "uit"
+	sketch.melding14.stateSwitch "uit"
+
+sketch.instellingen5.onClick (event, layer) ->
+	sketch.instellingenscherm.stateSwitch "default"
+	sketch.testscherm.stateSwitch "uit"
+
+# ----------------------------------- #
+# Kaarten laten opschuiven bij verwijderen kaart uit Favorieten
+  
+sketch.f2f3.states.default =
+	x: 0
+	y: 0
+
+sketch.kaartf3.states.default =
+	x: 0
+	y: 0
+
+
+# ----------------------------------- #
+# Scrollen kaartjes Oefeningen
+
+scroll = ScrollComponent.wrap(sketch.scrollKaarten)
+scroll.scrollHorizontal = false
+
+scroll.contentInset =
+		top: 30
+		bottom: 180
+
+# ----------------------------------- #
+# Scrollen kaartjes Oefeningen
+
+scroll = ScrollComponent.wrap(sketch.scrollKaarten5)
+scroll.scrollHorizontal = false
+
+scroll.contentInset =
+		top: 30
+		bottom: 180
+
+# ----------------------------------- #
+# Scrollen kaartjes Meldingen
+
+scroll = ScrollComponent.wrap(sketch.scrollKaarten7)
+scroll.scrollHorizontal = false
+
+scroll.contentInset =
+		top: 30
+		bottom: 180
+
+# ----------------------------------- #
+# Kaart1 Verwijderen uit Favorieten
+
+# State aanmaken kaartf1
+sketch.kaartf1.states.a =
+	x: -800
+
+#Bij klikken op favorieten knop, verdwijnt deze uit favorieten
+sketch.likenKnop15.onClick (event, layer) ->
+	sketch.kaartf1.stateSwitch "a"
+	sketch.f2f3.animate "default"
+	sketch.likenKnop.stateSwitch "b"
+	sketch.likenKnop1.stateSwitch "b"
+
+	
+# ----------------------------------- #
+# Kaart 2 Verwijderen uit Favorieten
+
+# State aanmaken kaartf2
+sketch.kaartf2.states.a =
+	x: -700
+
+#Bij klikken op favorieten knop, verdwijnt deze uit favorieten
+sketch.likenKnop16.onClick (event, layer) ->
+	sketch.kaartf2.stateSwitch "a"
+	sketch.kaartf3.animate "default"
+	sketch.likenKnopb2.stateSwitch "b"
+	sketch.likenKnop2.stateSwitch "b"
+
+# ----------------------------------- #
+# Kaart 3 Verwijderen uit Favorieten
+
+# State aanmaken kaartf3
+sketch.kaartf3.states.a =
+	x: -700
+
+#Bij klikken op favorieten knop, verdwijnt deze uit favorieten
+sketch.likenKnop17.onClick (event, layer) ->
+	sketch.kaartf3.stateSwitch "a"
+	sketch.likenKnopb3.stateSwitch "b"
+	sketch.likenKnop3.stateSwitch "b"
+
+# ----------------------------------- #
+# Opslaan als Favoriet en ongedaan maken Kaart 1
+
+sketch.likenKnop.states.a =
+	x: 609
+	y: 261
+
+sketch.likenKnop1.states.a =
+	x: 1000
+	y: 1000
+	
+
+sketch.likenKnop1.states.b =
+	x: 580
+	y: 35
+
+sketch.likenKnop.states.b =
+	x: 1000
+	y: 1000
+	
+sketch.likenKnop1.onClick (event, layer) ->
+	sketch.likenKnop.stateSwitch "a"
+	sketch.likenKnop1.stateSwitch "a"
+
+sketch.likenKnop.onClick (event, layer) ->
+	sketch.likenKnop.stateSwitch "b"
+	sketch.likenKnop1.stateSwitch "b"
+
+
+# ----------------------------------- #
+# Opslaan als Favoriet en ongedaan maken Kaart 2
+
+sketch.likenKnopb2.states.a =
+	x: 611
+	y: 512
+
+sketch.likenKnop2.states.a =
+	x: 1000
+	y: 1000
+
+sketch.likenKnop2.states.b =
+	x: 580
+	y: 35
+
+sketch.likenKnopb2.states.b =
+	x: 1000
+	y: 1000
+	
+sketch.likenKnop2.onClick (event, layer) ->
+	sketch.likenKnopb2.stateSwitch "a"
+	sketch.likenKnop2.stateSwitch "a"
+
+sketch.likenKnopb2.onClick (event, layer) ->
+	sketch.likenKnopb2.stateSwitch "b"
+	sketch.likenKnop2.stateSwitch "b"
+
+# ----------------------------------- #
+# Opslaan als Favoriet en ongedaan maken Kaart 3
+
+sketch.likenKnopb3.states.a =
+	x: 611
+	y: 764
+
+sketch.likenKnop3.states.a =
+	x: 1000
+	y: 1000
+
+sketch.likenKnop3.states.b =
+	x: 580
+	y: 35
+
+sketch.likenKnopb3.states.b =
+	x: 1000
+	y: 1000
+	
+sketch.likenKnop3.onClick (event, layer) ->
+	sketch.likenKnopb3.stateSwitch "a"
+	sketch.likenKnop3.stateSwitch "a"
+
+sketch.likenKnopb3.onClick (event, layer) ->
+	sketch.likenKnopb3.stateSwitch "b"
+	sketch.likenKnop3.stateSwitch "b"
+
+
+# ----------------------------------- #
+# Oefening toevoegen
+	
+
+sketch.oefeningToevoegen.onClick (event, layer) ->
+	sketch.scherm2.animate "active",
+		curve: "spring(300, 20, 0)"
+sketch.scherm2.states.active =
+	x:0
+	y:0
+
+# Bij klikken op X sluit het scherm weer
+sketch.sluiten.onClick (event, layer) ->
+	sketch.scherm2.animate "sluit",
+		curve: "spring(300, 20, 0)"
+sketch.scherm2.states.sluit =
+	x: 1000
+	y: 1000
+	
+
+# ----------------------------------- #
+# Oefening 1 bekijken "Ademhaling tellen"
+	
+
+sketch.klik1.onClick (event, layer) ->
+	sketch.scherm3.animate "active",
+		curve: "spring(300, 20, 0)"
+sketch.scherm3.states.active =
+	x:0
+	y:0
+
+# Bij klikken op X sluit het scherm weer
+sketch.sluiten1.onClick (event, layer) ->
+	sketch.scherm3.animate "sluit",
+		curve: "spring(300, 20, 0)"
+sketch.scherm3.states.sluit =
+	x: 1000
+	y: 1000
+	
+
+
+# ----------------------------------- #
+# Oefening 2 bekijken "Jacobsen"
+	
+
+sketch.klik2.onClick (event, layer) ->
+	sketch.jacobsen.animate "active",
+		curve: "spring(300, 20, 0)"
+sketch.jacobsen.states.active =
+	x:0
+	y:0
+
+# Bij klikken op X sluit het scherm weer
+sketch.sluiten2.onClick (event, layer) ->
+	sketch.jacobsen.animate "sluit",
+		curve: "spring(300, 20, 0)"
+sketch.jacobsen.states.sluit =
+	x: 1000
+	y: 1000
+
+
+# ----------------------------------- #
+# Oefening 3 bekijken "Maak een associatievideo"
+	
+
+sketch.klik3.onClick (event, layer) ->
+	sketch.associatie.animate "active",
+		curve: "spring(300, 20, 0)"
+sketch.associatie.states.active =
+	x:0
+	y:0
+
+# Bij klikken op X sluit het scherm weer
+sketch.sluiten3.onClick (event, layer) ->
+	sketch.associatie.animate "sluit",
+		curve: "spring(300, 20, 0)"
+sketch.associatie.states.sluit =
+	x: 1000
+	y: 1000
+
+
+# ----------------------------------- #
+# Oefening 4 bekijken "Achteruit tellen"
+	
+
+sketch.klik4.onClick (event, layer) ->
+	sketch.scherm3.animate "active",
+		curve: "spring(300, 20, 0)"
+sketch.scherm3.states.active =
+	x:0
+	y:0
+
+# Bij klikken op X sluit het scherm weer
+sketch.sluiten1.onClick (event, layer) ->
+	sketch.scherm3.animate "sluit",
+		curve: "spring(300, 20, 0)"
+sketch.scherm3.states.sluit =
+	x: 1000
+	y: 1000
+
+# ----------------------------------- #
+# Oefening 5 bekijken "Brief uit de toekomst"
+	
+
+sketch.klik5.onClick (event, layer) ->
+	sketch.scherm3.animate "active",
+		curve: "spring(300, 20, 0)"
+sketch.scherm3.states.active =
+	x:0
+	y:0
+
+# Bij klikken op X sluit het scherm weer
+sketch.sluiten1.onClick (event, layer) ->
+	sketch.scherm3.animate "sluit",
+		curve: "spring(300, 20, 0)"
+sketch.scherm3.states.sluit =
+	x: 1000
+	y: 1000
+
+
+# ----------------------------------- #
+# Oefening Favorieten 1 bekijken 	
+
+sketch.klikf1.onClick (event, layer) ->
+	sketch.scherm3.animate "active",
+		curve: "spring(300, 20, 0)"
+sketch.scherm3.states.active =
+	x:0
+	y:0
+
+# Bij klikken op X sluit het scherm weer
+sketch.sluiten1.onClick (event, layer) ->
+	sketch.scherm3.animate "sluit",
+		curve: "spring(300, 20, 0)"
+sketch.scherm3.states.sluit =
+	x: 1000
+	y: 1000
+
+# ----------------------------------- #
+# Oefening Favorieten 2 bekijken 	
+
+sketch.klikf2.onClick (event, layer) ->
+	sketch.scherm3.animate "active",
+		curve: "spring(300, 20, 0)"
+sketch.scherm3.states.active =
+	x:0
+	y:0
+
+# Bij klikken op X sluit het scherm weer
+sketch.sluiten1.onClick (event, layer) ->
+	sketch.scherm3.animate "sluit",
+		curve: "spring(300, 20, 0)"
+sketch.scherm3.states.sluit =
+	x: 1000
+	y: 1000
+
+# ----------------------------------- #
+# Oefening Favorieten 3 bekijken 	
+
+sketch.klikf3.onClick (event, layer) ->
+	sketch.scherm3.animate "active",
+		curve: "spring(300, 20, 0)"
+sketch.scherm3.states.active =
+	x:0
+	y:0
+
+# Bij klikken op X sluit het scherm weer
+sketch.sluiten1.onClick (event, layer) ->
+	sketch.scherm3.animate "sluit",
+		curve: "spring(300, 20, 0)"
+sketch.scherm3.states.sluit =
+	x: 1000
+	y: 1000
+
+# ----------------------------------- #
+# Opslaan als Favoriet en ongedaan maken Oefening 1 bekijken
+
+sketch.likenKnopb4.states.a =
+	x: 114
+	y: 1235
+
+sketch.likenKnop12.states.a =
+	x: 1000
+	y: 1000
+
+sketch.likenKnop12.states.b =
+	x: 112
+	y: 1049
+
+sketch.likenKnopb4.states.b =
+	x: 1000
+	y: 1000
+	
+sketch.likenKnop12.onClick (event, layer) ->
+	sketch.likenKnopb4.stateSwitch "a"
+	sketch.likenKnop.stateSwitch "a"
+	sketch.likenKnop12.stateSwitch "a"
+
+sketch.likenKnopb4.onClick (event, layer) ->
+	sketch.likenKnopb4.stateSwitch "b"
+	sketch.likenKnop12.stateSwitch "b"
+
+
+# ----------------------------------- #
+# Sorteren
+
+# Sorteren Oefeningen
+sketch.sorteren.states.aan = 
+	y: 109
+	x: 193
+
+sketch.sorteren.states.uit = 
+	x: 1000
+	y: 106
+
+sketch.sorteerMenu.onClick (event, layer) ->
+	sketch.sorteren.stateCycle("aan", "uit")
+	
+# Sorteren Favorieten
+sketch.sorterenf.states.aan = 
+	x: 193
+	y: 109
+
+sketch.sorterenf.states.uit = 
+	x: 1000
+	y: 106
+
+sketch.sorteerMenuf.onClick (event, layer) ->
+	sketch.sorterenf.stateCycle("aan", "uit")
+
+# ----------------------------------- #
+# Scrollen Oefening toevoegen
+
+scroll = ScrollComponent.wrap(sketch.scrollKaarten2)
+scroll.scrollHorizontal = false
+
+scroll.contentInset =
+		top: 30
+		bottom: 180
+
+
+# ----------------------------------- #
+# Scrollen Oefening 1 bekijken Ademhaling tellen
+
+scroll = ScrollComponent.wrap(sketch.scrollKaarten3)
+scroll.scrollHorizontal = false
+
+scroll.contentInset =
+		top: 30
+		bottom: 180
+
+# ----------------------------------- #
+# Scrollen Oefening 2 bekijken Jacobsen
+scroll = ScrollComponent.wrap(sketch.scrollKaarten4)
+scroll.scrollHorizontal = false
+
+scroll.contentInset =
+		top: 30
+		bottom: 180
+
+	
+# ----------------------------------- #
+# Meldingen verwijderen
+
+
+# Kaart melding1 swipen naar links
+sketch.kaartm1b.states.naswipe =
+	x: -144
+	y: 162
+
+sketch.kaartm1.states.uit =
+	x: 1000
+	y: 1000
+
+sketch.kaartm1b.onSwipeLeft (event, layer) ->
+	sketch.kaartm1b.animate "naswipe"
+	sketch.kaartm1.stateSwitch "uit"
+
+# Klikken op prullenbak1
+sketch.kaartm1b.states.default =
+	x: 27
+	y: 132
+
+sketch.kaartm1b.states.uit =
+	x: -1000
+	y: 27
+
+sketch.prullenbak12.states.uit =
+	x: -1000
+	y: 27
+
+sketch.kaartm2.states.boven =
+	x: 0
+	y: 0
+
+sketch.kaartm3.states.boven =
+	x: 0
+	y: 252
+
+sketch.kaartm4.states.boven =
+	x: -12
+	y: 505
+
+sketch.prullenbak21.states.boven =
+	x: -1000
+	y: 1000
+
+sketch.prullenbak31.states.boven =
+	x: -1000
+	y: 1000
+
+sketch.prullenbak12.onClick (event, layer) ->
+	sketch.kaartm1b.animate "uit"
+	sketch.prullenbak12.animate "uit"
+	sketch.kaartm2.animate "boven"
+	sketch.kaartm3.animate "boven"
+	sketch.kaartm4.animate "boven"
+	sketch.prullenbak21.stateSwitch "boven"
+	sketch.prullenbak31.stateSwitch "boven"
+
+# Terugswipen om niet te verwijderen
+sketch.kaartm1b.onSwipeRight (event, layer) ->
+	sketch.kaartm1b.animate "default"
+	
+
+
+# Kaart melding2 swipen naar links
+sketch.kaartm2.states.naswipe =
+	x: -165
+	
+sketch.kaartm2.states.uit =
+	x: 1000
+	y: 1000
+
+sketch.kaartm2.onSwipeLeft (event, layer) ->
+	sketch.kaartm2.animate "naswipe"
+
+# Klikken op prullenbak2
+sketch.kaartm2.states.uit =
+	x: -1000
+	y: 1000
+
+sketch.prullenbak21.states.uit =
+	x: -1000
+	y: 1000
+
+sketch.kaartm1.states.boven =
+	x: 0
+	y: 0
+
+sketch.kaartm3.states.boven =
+	y: 252
+	x: -12
+
+sketch.prullenbak11.states.boven =
+	x: -1000
+	y: 1000
+
+sketch.prullenbak31.states.boven =
+	x: -1000
+	y: 1000
+
+sketch.prullenbak21.onClick (event, layer) ->
+	sketch.kaartm2.animate "uit"
+	sketch.prullenbak21.animate "uit"
+	sketch.kaartm3.animate "boven"
+	sketch.prullenbak11.stateSwitch "boven"
+	sketch.kaartm3.animate "boven"
+	sketch.prullenbak31.stateSwitch "boven"
+	
+
+# Kaart melding3 swipen naar links
+sketch.kaartm3.states.naswipe =
+	x: -165
+	
+sketch.kaartm3.states.uit =
+	x: 1000
+	y: 1000
+
+sketch.kaartm3.onSwipeLeft (event, layer) ->
+	sketch.kaartm3.animate "naswipe"
+
+
+# Klikken op prullenbak3
+sketch.kaartm3.states.uit =
+	x: -1000
+	y: 1000
+
+sketch.prullenbak31.states.uit =
+	x: -1000
+	y: 1000
+
+sketch.prullenbak31.onClick (event, layer) ->
+	sketch.kaartm3.animate "uit"
+	sketch.prullenbak31.animate "uit"
+
+sketch.facebookdelen.states.aan =
+	y: 1016
+	x: 168
+
+sketch.facebook.onClick (event, layer) ->
+	sketch.facebookdelen.stateSwitch "aan"
+
+sketch.whatsappdelen.states.aan =
+	x: 168
+	y: 1022
+
+sketch.whatsapp.onClick (event, layer) ->
+	sketch.whatsappdelen.stateSwitch "aan"
+
+
+# ----------------------------------- #
+#Account verwijderen
+sketch.bevestigverwijderen.states.aan =
+	x: 0
+	y: 384
+
+sketch.accountverwijderen.onClick (event, layer) -> 
+	sketch.bevestigverwijderen.stateSwitch "aan"
+
+sketch.checked.states.aan =
+	x: 80
+	y: 911
+
+sketch.checkbox2.states.uit =
+	x: 1000
+	y: 1000
+	
+sketch.checked.states.uit =
+	y: 1000
+	x: 1000
+
+sketch.checkbox2.states.aan =
+	x: 88
+	y: 528
+	
+sketch.checkbox2.onClick (event, layer) -> 
+	sketch.checked.stateSwitch "aan"
+	sketch.checkbox2.stateSwitch "uit"
+
+sketch.checked.onClick (event, layer) -> 
+	sketch.checked.stateSwitch "uit"
+	sketch.checkbox2.stateSwitch "aan"
+
+sketch.accountverwijdert.states.aan =
+	x: 0
+	y: 0
+
+sketch.bevestigverwijderen.states.uit =
+	x: 1000
+	y: 1000
+	
+sketch.ja1.onClick (event, layer) ->
+	sketch.accountverwijdert.stateSwitch "aan"
+	sketch.instellingenscherm.stateSwitch "uit"
+	sketch.bevestigverwijderen.stateSwitch "uit"
+
+sketch.x1.onClick (event, layer) ->
+	sketch.bevestigverwijderen.stateSwitch "uit"
+
+sketch.nee1.onClick (event, layer) ->
+	sketch.bevestigverwijderen.stateSwitch "uit"
+	
+#Inloggen na verwijderen
+sketch.inloggen.onClick (event, layer) ->
+	sketch.scherm1.stateSwitch "default"
+	sketch.instellingenscherm.stateSwitch "uit"
+
+sketch.instellingenscherm.states.uit =
+	x: 1000
+	y: 1000
+
+# ----------------------------------- #
+# Pushmeldingen uitzetten en weer aanzetten
+
+sketch.checkboxm.states.default =
+	x: 58
+	y: 818
+
+sketch.checkboxchecked.states.uit =
+	x: 1000
+	y: 1000
+
+sketch.checkboxchecked.onClick (event, layer) ->
+	sketch.checkboxm.stateSwitch "default"
+	sketch.checkboxchecked.stateSwitch "uit"
+	
+
+sketch.checkboxchecked.states.default =
+	x: 58
+	y: 818
+
+sketch.checkboxm.states.uit =
+	x: 1000
+	y: 1000
+
+sketch.checkboxm.onClick (event, layer) ->
+	sketch.checkboxchecked.stateSwitch "default"
+	sketch.checkboxm.stateSwitch "uit"
+
+
+# ----------------------------------- #
+# Uitklapmenu categorie kiezen oefening plaatsen
+
+sketch.uitklapcategorie.states.aan =
+	y: 678
+	x: 114
+
+sketch.uitklapcategorie.states.uit =
+	y: 1000
+	x: 1000
+
+sketch.categorie.states.aan =
+	y: 678
+	x: 114
+
+sketch.categorie.onClick (event, layer) ->
+	sketch.uitklapcategorie.stateSwitch "aan"
+
+sketch.uitklapcategorie.onClick (event, layer) ->
+	sketch.categorie.stateSwitch "aan"
+	sketch.uitklapcategorie.stateSwitch "uit"
+
+
+# ----------------------------------- #
+# Klikken op meldingen
+
+#Klik op melding 1
+
+sketch.meldingenscherm.states.uit =
+	x: 1000
+	y: 1000
+
+sketch.scherm3.states.default =
+	x: 0
+	y: 0
+
+sketch.kaartm1b.onClick (event, layer) ->
+	sketch.scherm3.stateSwitch "default"
+	sketch.meldingenscherm.stateSwitch "uit"
+
+#Klik op melding 2
+
+sketch.scherm3.states.default =
+	x: 0
+	y: 0
+
+sketch.kaartm2.onClick (event, layer) ->
+	sketch.scherm3.stateSwitch "default"
+	sketch.meldingenscherm.stateSwitch "uit"
+
+#Klik op melding 3
+
+sketch.scherm3.states.default =
+	x: 0
+	y: 0
+
+sketch.kaartm3.onClick (event, layer) ->
+	sketch.jacobsen.stateSwitch "active"
+	sketch.meldingenscherm.stateSwitch "uit"
+
+#Klik op melding 4
+
+sketch.testscherm.states.default =
+	x: 0
+	y: 0
+
+sketch.kaartm4.onClick (event, layer) ->
+	sketch.testscherm.stateSwitch "default"
+	sketch.meldingenscherm.stateSwitch "uit"
+
+sketch.scherm2.states.uit =
+	x: 1000
+	y: 1000
+	
+sketch.oefeningplaatsen.onClick (event, layer) ->
+	sketch.scherm3.stateSwitch "default"
+	sketch.scherm2.stateSwitch "uit"
+
+
+# ----------------------------------- #
+# Doorklikken menu vanaf meldingenscherm
+
+# Naar Instellingen
+sketch.instellingen3.onClick (event, layer) ->
+	sketch.meldingenscherm.stateSwitch "uit"
+	sketch.instellingenscherm.stateSwitch "default"
+
+# Naar Testen
+sketch.favorieten3.onClick (event, layer) ->
+	sketch.meldingenscherm.stateSwitch "uit"
+	sketch.testscherm.stateSwitch "default"
+
+# Naar Oefeningen
+sketch.oefeningen3.onClick (event, layer) ->
+	sketch.meldingenscherm.stateSwitch "uit"
+	sketch.scherm1.stateSwitch "default"
+
+
+# ----------------------------------- #
+#Klikken om te beoordelen
+
+sketch.fijnklik.states.aan =
+	x: 30
+	y: 300
+	
+sketch.fijn.states.uit =
+	x: 1000
+	y: 1000
+	
+sketch.fijn.onClick (event, layer) ->
+	sketch.fijnklik.stateSwitch "aan"
+	sketch.fijn.stateSwitch "uit"
+
+
+# ----------------------------------- #
+# Alles verwijderen bij Meldingen
+
+sketch.verwijderalles.onClick (event, layer) ->
+	sketch.kaartm1.animate "uit",
+		curve: "spring(237, 100, 0)"
+	sketch.prullenbak12.stateSwitch "uit"
+	sketch.kaartm2.animate "uit",
+		curve: "spring(237, 100, 0)"
+	sketch.prullenbak21.stateSwitch "uit"
+	sketch.kaartm3.animate "uit",
+		curve: "spring(237, 100, 0)"
+	sketch.prullenbak31.stateSwitch "uit"
+	sketch.kaartm4.animate "uit",
+		curve: "spring(237, 100, 0)"
+		
+sketch.kaartm1.states.uit =
+	x: 1000
+	y: 30
+
+sketch.kaartm2.states.uit =
+	x: 1000
+	y: 80
+
+sketch.kaartm3.states.uit =
+	x: 1000
+	y: 80
+
+sketch.kaartm4.states.uit =
+	x: 1000
+	y: 80
+
+sketch.prullenbak12.states.uit =
+	x: 1000
+	y: 50
+
+sketch.prullenbak21.states.uit =
+	x: 1000
+	y: 100
+
+
+# ----------------------------------- #
+# Favoriete oefeningen bekijken
+
+
+# Oefening favoriet1 bekijken "Ademhaling tellen"
+
+sketch.klikf1.onClick (event, layer) ->
+	sketch.scherm3.animate "active",
+		curve: "spring(300, 20, 0)"
+		sketch.favorietenscherm.stateSwitch "uit"
+sketch.scherm3.states.active =
+	x:0
+	y:0
+
+# Bij klikken op X sluit het scherm weer
+sketch.sluiten1.onClick (event, layer) ->
+	sketch.scherm3.animate "sluit",
+		curve: "spring(300, 20, 0)"
+sketch.scherm3.states.sluit =
+	x: 1000
+	y: 1000
+
+
+# Oefening favoriet2 bekijken "Ademhaling tellen"
+
+sketch.klikf2.onClick (event, layer) ->
+	sketch.jacobsen.animate "active",
+		curve: "spring(300, 20, 0)"
+		sketch.favorietenscherm.stateSwitch "uit"
+sketch.scherm3.states.active =
+	x:0
+	y:0
+
+# Bij klikken op X sluit het scherm weer
+sketch.sluiten1.onClick (event, layer) ->
+	sketch.scherm3.animate "sluit",
+		curve: "spring(300, 20, 0)"
+sketch.scherm3.states.sluit =
+	x: 1000
+	y: 1000
+
+# Oefening favoriet3 bekijken "Ademhaling tellen"
+
+sketch.klikf3.onClick (event, layer) ->
+	sketch.associatie.animate "active",
+		curve: "spring(300, 20, 0)"
+		sketch.favorietenscherm.stateSwitch "uit"
+sketch.scherm3.states.active =
+	x:0
+	y:0
+
+# Bij klikken op X sluit het scherm weer
+sketch.sluiten1.onClick (event, layer) ->
+	sketch.scherm3.animate "sluit",
+		curve: "spring(300, 20, 0)"
+sketch.scherm3.states.sluit =
+	x: 1000
+	y: 1000
