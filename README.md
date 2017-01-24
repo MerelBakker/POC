@@ -86,5 +86,15 @@ Ik ben blij met het resultaat van het Framer prototype. Het is nog geen volledig
 - Basis van Framer goed begrijpen en het leerproces gestructureerd aanpakken. 
 In het begin heb ik wel wat video tutorials en voorbeelden bekeken. Ik merkte daarbij dat het vaak makkelijk lijkt, maar dat je het dan toch nog helemaal moet vertalen naar je eigen prototype en dat is ingewikkelder dan het lijkt. Daarom ben ik vooral veel zelf gaan proberen en ik merkte dat je er dan toch vaak wel uitkomt, al heeft het vaak wel even tijd nodig. 
 - Ontwerpen in Sketch goed leren structureren, zodat het goed te gebruiken is in Framer. 
+Ik heb de tips gebruikt die in mijn Proof of Concept onderzoek naar voren kwamen. Zo heb ik steeds goed nagedacht over hoe ik de verschillende groepen zou noemen en heb ik de namen zo veel mogelijk in camelCase geschreven. Ik merkte dat Framer automatisch groepen met dezelfde naam, bijvoorbeeld op verschillende schermen, een nummer geeft. Dit maakte het soms wat ingewikkelder, omdat je daardoor eerst in Framer moest uitzoeken welk nummer het element had gekregen wat je interactief wil maken. Als je een scherm verwijdert in Sketch, verandert de nummering en doen sommige interacties in Framer het opeens niet meer, terwijl het scherm wat je verwijderde een scherm was wat ik niet gebruikte in Framer. Dit kwam door de automatische nummering. Eigenlijk zou je dus alle groepen een eigen naam moeten geven. 
+
+# Issues op Github
+Ik heb de dingen die nog niet gelukt zijn, aangegeven in de vorm van issues in Github. Zo zien de volgende teams die met het project aan de slag gaan precies waar de bugs en verbeterpunten liggen: 
+
+https://github.com/MerelBakker/Share-Care-Misofonie/issues
+
+# Link naar eindrapport en prototype
+https://drive.google.com/drive/folders/0B8dhNqa8u-pMS1YzTTBCZkoyNjA?usp=sharing
+https://framer.cloud/pjrVq/
 
 
