@@ -90,7 +90,7 @@ Ik heb de dingen die nog niet gelukt zijn, aangegeven in de vorm van issues in G
 - https://github.com/MerelBakker/Share-Care-Misofonie/issues
 
 # Conclusie 
-
+Ik ben tevreden met het resultaat van het Framer prototype. Er zijn nog een aantal bugs en dingen waar ik nog niet aan toegekomen ben. Dit was van tevoren ook wel de verwachting, aangezien ik nog niet eerder met Framer had gewerkt en code schrijven altijd best lastig vind. Ik heb vooral veel zelf dingen uitgeprobeerd en kwam zo te weten hoe ik bepaalde problemen kon oplossen en hoe ik bepaalde interacties kon maken. Door de voorbeelden die ik heb gezien, weet ik dat er heel veel mogelijk is in Framer en ik denk dat ik Framer ook bij volgende projecten zal gaan gebruiken om meer van deze mogelijkheden te leren benutten en een beter prototype te kunnen maken.
 
 # Links 
 - https://drive.google.com/drive/folders/0B8dhNqa8u-pMS1YzTTBCZkoyNjA?usp=sharing
