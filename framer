@@ -49,7 +49,7 @@ sketch.testscherm.states.fa =
 sketch.favorieten.onClick (event, layer) ->
 	sketch.testscherm.stateSwitch "fa"
 	
-# Statea aanmaken Meldingen
+# States aanmaken Meldingen
 sketch.meldingenscherm.states.default =
 	x: 0
 	y: 0
