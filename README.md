@@ -91,12 +91,10 @@ Ik heb de tips gebruikt die in mijn Proof of Concept onderzoek naar voren kwamen
 Issues op Github
 
 Ik heb de dingen die nog niet gelukt zijn, aangegeven in de vorm van issues in Github. Zo zien de volgende teams die met het project aan de slag gaan precies waar de bugs en verbeterpunten liggen: 
-
-https://github.com/MerelBakker/Share-Care-Misofonie/issues
+- https://github.com/MerelBakker/Share-Care-Misofonie/issues
 
 Link naar eindrapport en Framer Prototype
-
-https://drive.google.com/drive/folders/0B8dhNqa8u-pMS1YzTTBCZkoyNjA?usp=sharing
-https://framer.cloud/pjrVq/
+- https://drive.google.com/drive/folders/0B8dhNqa8u-pMS1YzTTBCZkoyNjA?usp=sharing
+- https://framer.cloud/pjrVq/
 
 
