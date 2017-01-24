@@ -89,6 +89,7 @@ In het begin heb ik wel wat video tutorials en voorbeelden bekeken. Ik merkte da
 Ik heb de tips gebruikt die in mijn Proof of Concept onderzoek naar voren kwamen. Zo heb ik steeds goed nagedacht over hoe ik de verschillende groepen zou noemen en heb ik de namen zo veel mogelijk in camelCase geschreven. Ik merkte dat Framer automatisch groepen met dezelfde naam, bijvoorbeeld op verschillende schermen, een nummer geeft. Dit maakte het soms wat ingewikkelder, omdat je daardoor eerst in Framer moest uitzoeken welk nummer het element had gekregen wat je interactief wil maken. Als je een scherm verwijdert in Sketch, verandert de nummering en doen sommige interacties in Framer het opeens niet meer, terwijl het scherm wat je verwijderde een scherm was wat ik niet gebruikte in Framer. Dit kwam door de automatische nummering. Eigenlijk zou je dus alle groepen een eigen naam moeten geven. 
 
 Issues op Github
+
 Ik heb de dingen die nog niet gelukt zijn, aangegeven in de vorm van issues in Github. Zo zien de volgende teams die met het project aan de slag gaan precies waar de bugs en verbeterpunten liggen: 
 
 https://github.com/MerelBakker/Share-Care-Misofonie/issues
