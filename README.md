@@ -73,14 +73,14 @@ Antwoord: Als je een . gebruikt, kan dat problemen opleveren met de syntax in Fr
 
 # Reflectie 
 
-# Wat heb ik geleerd?
+Wat heb ik geleerd?
 - Ik heb geleerd om Sketch in combinatie met Framer te gebruiken.
 - Het is het makkelijkst om zelf je ontwerp in Framer te maken en dit vervolgens om te zetten naar een Framer prototype, omdat je goed moet weten hoe de verschillende lagen heten. Als iemand anders het Sketch bestand maakt, is het veel moeilijker interactief te maken, omdat je eerst voor alle lagen die je interactief wilt maken, moet kijken hoe deze lagen genoemd zijn. Ook al probeer je het nog zo goed te structureren in groepen in Framer, het wordt al snel erg complex. Ik ontdekte dat je met de stateSwitch en events allerlei verschillende interacties kunt maken.
 - Ik heb geleerd hoe je kan states aanmaakt en hoe je kan switchen tussen verschillende states om elementen in of uit beeld te zetten, bijvoorbeeld bij een onClick of onSwipe.
 - Ik heb geleerd hoe je onderdelen van een pagina scrollbaar kan maken.
 - Ook heb ik geleerd hoe je animaties aan kan passen, waardoor er bij het wisselen tussen states een animatie (animate in plaats van stateSwitch) plaatsvindt.
 
-# Leerdoelen behaald?
+Leerdoelen behaald?
 - Goed en vloeiend werkend prototype maken in Framer, voor zover dat haalbaar is binnen de beschikbare tijd.
 Ik ben blij met het resultaat van het Framer prototype. Het is nog geen volledig werkend prototype met een vloeiende flow door de bugs hier en daar, maar we hebben wel goed de beoogde werking kunnen tonen aan de klant door de schermvideo's met interacties die ik heb gemaakt. Het was voor mij niet haalbaar om alle bugs eruit te halen en om alle minder relevante interacties werkend te maken, maar in het maken van het prototype is veel tijd gaan zitten. Ik merkte wel dat hert gedurende het project vorderde en het prototoype steeds meer ging werken, het steeds makkelijker werd om te bedenken hoe ik een interactie werkend zou kunnen maken. Echter blijft het best tijdrovend, omdat je voor veel states een nieuw scherm of element moet maken in Sketch. 
 - Basis van Framer goed begrijpen en het leerproces gestructureerd aanpakken. 
@@ -88,12 +88,12 @@ In het begin heb ik wel wat video tutorials en voorbeelden bekeken. Ik merkte da
 - Ontwerpen in Sketch goed leren structureren, zodat het goed te gebruiken is in Framer. 
 Ik heb de tips gebruikt die in mijn Proof of Concept onderzoek naar voren kwamen. Zo heb ik steeds goed nagedacht over hoe ik de verschillende groepen zou noemen en heb ik de namen zo veel mogelijk in camelCase geschreven. Ik merkte dat Framer automatisch groepen met dezelfde naam, bijvoorbeeld op verschillende schermen, een nummer geeft. Dit maakte het soms wat ingewikkelder, omdat je daardoor eerst in Framer moest uitzoeken welk nummer het element had gekregen wat je interactief wil maken. Als je een scherm verwijdert in Sketch, verandert de nummering en doen sommige interacties in Framer het opeens niet meer, terwijl het scherm wat je verwijderde een scherm was wat ik niet gebruikte in Framer. Dit kwam door de automatische nummering. Eigenlijk zou je dus alle groepen een eigen naam moeten geven. 
 
-# Issues op Github
+Issues op Github
 Ik heb de dingen die nog niet gelukt zijn, aangegeven in de vorm van issues in Github. Zo zien de volgende teams die met het project aan de slag gaan precies waar de bugs en verbeterpunten liggen: 
 
 https://github.com/MerelBakker/Share-Care-Misofonie/issues
 
-# Link naar eindrapport en prototype
+Link naar eindrapport en Framer Prototype
 https://drive.google.com/drive/folders/0B8dhNqa8u-pMS1YzTTBCZkoyNjA?usp=sharing
 https://framer.cloud/pjrVq/
 
