@@ -1,9 +1,5 @@
 # Proof of Concept (POC) en Reflectie
 
-# Hoofdvraag
-
-Hoe kunnen we de app MisofoMe beter integreren in het dagelijks leven van mensen met misofonie?
-
 # Technische deelvragen
 - Is het haalbaar om de hele app binnen de daarvoor beschikbare tijd te prototypen in Framer? 
 - Hoe kunnen we ons ontwerp in Sketch structureren, zodat we het overzicht bewaren en het goed overdraagbaar is en interactief gemaakt kan worden in Framer?
