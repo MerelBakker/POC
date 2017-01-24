@@ -4,17 +4,17 @@ Hoofdvraag:
 
 Hoe kunnen we de app MisofoMe beter integreren in het dagelijks leven van mensen met misofonie?
 
-# Technische deelvragen:
+# Technische deelvragen
 - Is het haalbaar om de hele app binnen de daarvoor beschikbare tijd te prototypen in Framer? 
 - Hoe kunnen we ons ontwerp in Sketch structureren, zodat we het overzicht bewaren en het goed overdraagbaar is en interactief gemaakt kan worden in Framer?
 - Hoe kunnen we beginnende gebruikers helpen de app snel te leren begrijpen, zodat ze meteen weten wat er mogelijk is en ze direct een goede introductie krijgen?
 
-# Technische leerdoelen:
+# Technische leerdoelen
 - Goed en vloeiend werkend prototype maken in Framer, voor zover dat haalbaar is binnen de beschikbare tijd.
 - Basis van Framer goed begrijpen en het leerproces gestructureerd aanpakken. 
 - Ontwerpen in Sketch goed leren structureren, zodat het goed te gebruiken is in Framer. 
 
-# Inleiding:
+# Inleiding
 
 De technische deelvraag die ik in mijn Proof of Concept ga onderzoeken is:
 "Hoe kunnen we ons ontwerp in Sketch structureren, zodat we het overzicht bewaren en het goed overdraagbaar is en interactief gemaakt kan worden in Framer?"
@@ -23,11 +23,11 @@ Ik denk dat deze deelvraag cruciaal is om het haalbaar te maken om onze app binn
 
 Tijdens het onderzoeken van deze deelvraag wil ik meer te weten komen over hoe je je schermontwerpen en alle elementen op het scherm op een goede manier kan structureren. Ik ga onderzoeken hoe we het overzicht kunnen bewaren en hoop handige tips en adviezen te vinden over het goed en gestructureerd ontwikkelen van een Framer prototype. Hiermee wil ik de kans vergroten dat we in de beschikbare tijd ons prototype in Framer kunnen maken en daarmee de haalbaarheid (zie deelvraag 1) vergroten.
 
-# Onderzoeksplan:
+# Onderzoeksplan
 
 Om mijn technische deelvraag te kunnen beantwoorden, ga ik desk research doen. Ik ga video's bekijken en artikelen lezen over het structureren van Sketch bestanden en de overdracht naar een interactief prototype in Framer. Daarnaast bekijk ik op de website https://framerjs.com de informatie in "Get Started" en in de gallerij kan ik voorbeelden bekijken. 
 
-# Resultaten: 
+# Resultaten
 
 Tips voor structureren in Sketch:
 - Gebruik geen spaties en punten in de namen van je artboards en lagen, want dat kan problemen opleveren met de syntax van de Framer Coffeescript. Gebruik daarom camelCase of names_with_underscores.
@@ -50,11 +50,11 @@ Framer tips:
 - deviceWidth = Framer.Device.screen.width en dit kan ook voor height.
 - Gebruik print "..." om te testen of een event werkt.
 
-# Conclusie:
+# Conclusie
 
 Het is erg belangrijk om alles wat je interactief wilt maken in Sketch in een groep te plaatsen met een duidelijke naam, zonder punten en spaties erin. Door vanaf het begin al met Framer te werken, is het makkelijker om je prototype op te bouwen en het overzicht te bewaren. Daarnaast is het erg belangrijk om comments te gebruiken in je code, zodat jij en de andere mensen die de code bekijken, begrijpen wat er staat. Er zijn veel voorbeelden te vinden over hoe je bepaalde interacties of animaties kan gebruiken in een prototype en als je deze voorbeelden en tutorial video's bekijkt, krijg je een steeds beter beeld van wat er allemaal mogelijk is in Framer en hoe je dat kan aanpakken. 
 
-# Bronnen:
+# Bronnen
 - C. Deets. Framer & Sketch: An Intentional Workflow. https://medium.com/facebook-design/framer-sketch-an-intentional-workflow-f91ee2ee1cc1#.obgt1b8if
 - E. Corcoran. Getting started Prototyping with Sketch & Framer Studio. https://medium.com/@MentallyFriendly/getting-started-prototyping-with-sketch-framer-studio-60636bc42690#.uykxqxtcu
 - Framer. Get Started. Sketch Import. https://framerjs.com/getstarted/import/
@@ -64,7 +64,7 @@ Het is erg belangrijk om alles wat je interactief wilt maken in Sketch in een gr
 - R. Conde. Prototyping with Framer, part 2. https://www.sketchcasts.net/episodes/prototyping-with-framer-part-2
 - R. Conde. Prototyping with Framer, part 3. https://www.sketchcasts.net/episodes/prototyping-with-framer-part-3
 
-# Tentamenvragen:
+# Tentamenvragen
 - Waarom is het belangrijk om comments in je code te gebruiken? Geef twee redenen.
 Antwoord: 1. Door comments toe te voegen, behoud je zelf het overzicht in de code en kan je snel dingen terugvinden. Als je op een later moment verder gaat met je code begrijp je al snel hoe het ook al weer is opgebouwd. 2. Door comments toe te voegen, kun je je werk beter overdragen aan iemand anders en kun je beter samenwerken. Door comments begrijpen anderen je code eerder.
 Bron: Framer Workshop
@@ -94,6 +94,7 @@ Ik heb de dingen die nog niet gelukt zijn, aangegeven in de vorm van issues in G
 - https://github.com/MerelBakker/Share-Care-Misofonie/issues
 
 # Conclusie 
+
 
 # Links 
 - https://drive.google.com/drive/folders/0B8dhNqa8u-pMS1YzTTBCZkoyNjA?usp=sharing
