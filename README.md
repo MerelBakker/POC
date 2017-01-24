@@ -1,6 +1,6 @@
 # Proof of Concept (POC) en Reflectie
 
-Hoofdvraag: 
+# Hoofdvraag
 
 Hoe kunnen we de app MisofoMe beter integreren in het dagelijks leven van mensen met misofonie?
 
